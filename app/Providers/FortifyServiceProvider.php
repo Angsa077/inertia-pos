@@ -47,26 +47,21 @@ class FortifyServiceProvider extends ServiceProvider
             return Limit::perMinute(5)->by($request->session()->get('login.id'));
         });
 
-        // Login
-        Fortify::loginView(function() {
+        //login
+        Fortify::loginView(function () {
             return Inertia::render('Auth/Login');
         });
 
-        // forgot
-        Fortify::requestPasswordResetLinkView(function() {
+        //forgot
+        Fortify::requestPasswordResetLinkView(function () {
             return Inertia::render('Auth/ForgotPassword');
         });
 
-        // reset
+        //reset
         Fortify::resetPasswordView(function ($request) {
             return Inertia::render('Auth/ResetPassword', [
                 'request' => $request,
             ]);
         });
-
-        /**
-         * logout
-         */
-        $this->app->singleton(\Laravel\Fortify\Contracts\LoginResponse::class, \App\Http\Responses\LogoutResponse::class);
     }
 }

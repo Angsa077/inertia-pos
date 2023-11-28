@@ -1,5 +1,5 @@
 <template>
-
+    
     <Head>
         <title>Login Account - Aplikasi Kasir</title>
     </Head>
@@ -121,8 +121,7 @@
             };
 
         }
-
-    }
+}
 </script>
 
 <style>
