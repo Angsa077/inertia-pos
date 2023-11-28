@@ -10,7 +10,7 @@
         >
             <div
                 class="c-sidebar-brand d-lg-down-none"
-                style="background: #894b9d"
+                style="background: #3399ff"
             >
                 <img
                     src="/images/cash-machine.png"

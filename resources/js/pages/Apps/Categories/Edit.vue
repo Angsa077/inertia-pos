@@ -7,7 +7,7 @@
             <div class="fade-in">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="card border-0 rounded-3 shadow border-top-purple">
+                        <div class="card border-0 rounded-3 shadow border-top-bubble-gum">
                             <div class="card-header">
                                 <span class="font-weight-bold"><i class="fa fa-folder"></i> EDIT CATEGORY</span>
                             </div>

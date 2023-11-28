@@ -7,7 +7,7 @@
             <div class="fade-in">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="card border-0 rounded-3 shadow border-top-purple">
+                        <div class="card border-0 rounded-3 shadow border-top-bubble-gum">
                             <div class="card-header">
                                 <span class="font-weight-bold"><i class="fa fa-users"></i> USERS</span>
                             </div>
@@ -42,7 +42,7 @@
                                                 </span>
                                             </td>
                                             <td class="text-center">
-                                                <Link :href="`/apps/users/${user.id}/edit`" v-if="hasAnyPermission(['users.edit'])" class="btn btn-success btn-sm me-2"><i class="fa fa-pencil-alt me-1"></i> EDIT</Link>
+                                                <Link :href="`/apps/users/${user.id}/edit`" v-if="hasAnyPermission(['users.edit'])" class="btn btn-warning btn-sm me-2"><i class="fa fa-pencil-alt me-1"></i> EDIT</Link>
                                                 <button @click.prevent="destroy(user.id)" v-if="hasAnyPermission(['users.delete'])" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> DELETE</button>
                                             </td>
                                         </tr>

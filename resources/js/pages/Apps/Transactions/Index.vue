@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                                 <div class="text-end mt-4">
-                                    <button @click.prevent="storeTransaction" class="btn btn-purple btn-md border-0 shadow text-uppercase" :disabled="cash < grandTotal || grandTotal == 0">Pay Order & Print</button>
+                                    <button @click.prevent="storeTransaction" class="btn btn-bubble-gum btn-md border-0 shadow text-uppercase" :disabled="cash < grandTotal || grandTotal == 0">Pay Order & Print</button>
                                 </div>
                             </div>
                         </div>

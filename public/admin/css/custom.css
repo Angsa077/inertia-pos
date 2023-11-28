@@ -8,27 +8,27 @@ body {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%)!important
 }
 
-.border-top-purple {
-    border-top: 5px solid #894b9d !important;
+.border-top-bubble-gum {
+    border-top: 5px solid #3399ff !important;
 }
 
 .btn-primary {
-    background-color: #894b9d !important;
-    border-color: #894b9d !important;
+    background-color: #3399ff !important;
+    border-color: #3399ff !important;
 }
 
 .btn-primary:hover {
-    background-color: #894b9d !important;
-    border-color: #894b9d !important;
+    background-color: #3399ff !important;
+    border-color: #3399ff !important;
 }
 
 .btn-primary:focus {
-    background-color: #894b9d !important;
-    border-color: #894b9d !important;
+    background-color: #3399ff !important;
+    border-color: #3399ff !important;
 }
 
 .text-primary {
-    color: #894b9d !important;
+    color: #3399ff !important;
 }
 
 .c-sidebar .c-sidebar-nav-dropdown-toggle:hover,
@@ -50,7 +50,7 @@ body {
 */
 .bg-green {
     /* background-color: #43a047; */
-    background-color: #894b9d;
+    background-color: #3399ff;
 }
 
 .bg-jumbotron {
@@ -144,8 +144,8 @@ body {
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.btn-purple {
-    background-color: #894b9d !important;
+.btn-bubble-gum {
+    background-color: #3399ff !important;
     color: white !important;
 }
 

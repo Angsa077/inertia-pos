@@ -12,7 +12,7 @@
                 </a>
             </div>
             <div class="card-group">
-                <div class="card border-top-purple border-0 shadow-sm rounded-3">
+                <div class="card border-top-bubble-gum border-0 shadow-sm rounded-3">
                     <div class="card-body">
                         <div class="text-start">
                             <h5>LOGIN ACCOUNT</h5>
