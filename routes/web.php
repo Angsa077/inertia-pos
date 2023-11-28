@@ -63,5 +63,11 @@ Route::prefix('apps')->group(function() {
         
         //route sales filter
         Route::get('/sales/filter', [\App\Http\Controllers\Apps\SaleController::class, 'filter'])->name('apps.sales.filter');
+
+        //route sales export excel
+        Route::get('/sales/export', [\App\Http\Controllers\Apps\SaleController::class, 'export'])->name('apps.sales.export');
+
+        //route sales print pdf
+        Route::get('/sales/pdf', [\App\Http\Controllers\Apps\SaleController::class, 'pdf'])->name('apps.sales.pdf');
     });
 });
