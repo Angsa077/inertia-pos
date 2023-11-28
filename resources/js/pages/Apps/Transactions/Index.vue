@@ -140,6 +140,9 @@
 
     //import inerita adapter
     import { Inertia } from '@inertiajs/inertia';
+		
+		//import sweet alert2
+    import Swal from 'sweetalert2';
 
     export default {
         //layout
@@ -168,7 +171,7 @@
             const product = ref({});
             const qty = ref(1);
 
-            //method "searchProduct"
+            //metho "searchProduct"
             const searchProduct = () => {
 
                 //fetch with axios
@@ -200,11 +203,12 @@
                 barcode.value = '';
             }
 
-             //define state grandTotal
+            //define state grandTotal
             const grandTotal = ref(props.carts_total);
 
             //method add to cart
             const addToCart = () => {
+                
 
                 //send data to server
                 Inertia.post('/apps/transactions/addToCart', {
@@ -225,8 +229,16 @@
 
                         //update state "grandTotal"
                         grandTotal.value = props.carts_total;
+
+                        //set cash to "0"
+                        cash.value = 0;
+
+                        //set change to "0"
+                        change.value = 0;
                     },
                 });
+
+                
             }
 
             //method "destroyCart"
@@ -238,6 +250,12 @@
 
                         //update state "grandTotal"
                         grandTotal.value = props.carts_total;
+
+                        //set cash to "0"
+                        cash.value = 0;
+
+                        //set change to "0"
+                        change.value = 0;
                     },
                 })
             }

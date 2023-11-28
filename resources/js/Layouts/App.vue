@@ -36,14 +36,12 @@
 
                 <footer class="c-footer">
                     <div>
-                        <strong>APLIKASI KASIR</strong> &copy; 2023 - Angga
-                        Saputra
+                        <strong>APLIKASI KASIR</strong> &copy; 2023 - Angga Saputra
                     </div>
                 </footer>
             </div>
         </div>
     </div>
-    c
 </template>
 
 <script>
